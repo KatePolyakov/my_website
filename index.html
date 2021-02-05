@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <title>Kate Polyakov</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -23,7 +23,16 @@
       <h5 class="logoText">My_Portfolio</h5>
 
       <div>
-        <h4><span>Hello.</span> I'm</h4>
+
+        <h4><span>
+          <script language="JavaScript">
+          var h=(new Date()).getHours();
+          if (h > 3 && h < 12) document.writeln("Good morning.");
+          if (h > 11 && h < 19) document.writeln("Hello.");
+          if (h > 18 && h < 24) document.writeln("Good evening.");
+          if (h > 23 || h < 4 ) document.wtriteln("Good night." ) ;
+          </script>
+          </span> I'm</h4>
         <h2>Kate Polyakov</h2>
         <h4>I'm a Web Developer.</h4>
         <p>I'm based in beautiful British Columbia, Canada. Feel free to take a look at About me section.</p>
