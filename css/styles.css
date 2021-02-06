@@ -1,4 +1,4 @@
-@import url('http://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+/* @import url('http://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap'); */
 *
 {
   margin: 0;
@@ -190,7 +190,7 @@ p{
   bottom: -10px;
   width: 60px;
   height: 4px;
-  background: #001d5e; 
+  background: #001d5e;
 }
 .title.white h2, .title.white p{
 color: #fff;
@@ -232,7 +232,7 @@ color: #fff;
   transition: 0.5%;
   text-align: center;
   background: #fff;
-  
+
 }
 /* .content .skillsBx  img{
   padding-top: 20px;
@@ -341,7 +341,7 @@ text-decoration: none;
 }
 .contact .contactForm .row .col50{
   width: 50%;
-  margin: 10px; 
+  margin: 10px;
 }
 .contact .contactForm .row .col100{
   width: 100%;
@@ -359,7 +359,7 @@ text-decoration: none;
   color: #fff;
   font-size: 16px;
   resize: none;
-} 
+}
 .contact .contactForm .row textarea{
   height: 100px;
 }
@@ -424,7 +424,7 @@ text-decoration: none;
     margin: 10px;
   }
   .contact .contactForm{
-  
+
     width: 100%;
   }
   .contactForm .row{
